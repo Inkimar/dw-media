@@ -25,11 +25,11 @@ build:
 up:
 	docker-compose up -d
 
-	echo "Please make sure you have beta-media.dina-web.net in your /etc/hosts!"
+	echo "on Localhost: Please make sure you have beta-media.dina-web.net in your /etc/hosts!"
 	sleep 15
 	
-	echo "Opening app!"
-	firefox http://beta-media.dina-web.net/MediaServerResteasy/&
+	#echo "Opening app!"
+	#firefox http://beta-media.dina-web.net/MediaServerResteasy/&
 
 stop:
 	docker-compose stop
