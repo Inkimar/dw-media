@@ -26,6 +26,12 @@ curl -v -H "Accept: application/json" -H "Content-type: application/json" -X POS
 
 ## @GET
 
+### fetch the image ( -> ?format=image/png )
+http://localhost:28080/MediaServerResteasy/media/f3959214-fcb2-451a-a0cb-dcd8457d2c83?format=image/png <br>
+
+### fetch the metadata ( -> ?content=metadata)
+http://localhost:28080/MediaServerResteasy/media/f3959214-fcb2-451a-a0cb-dcd8457d2c83?content=metadata <br>
+
 ## @PUT
 
 ## @DELETE
