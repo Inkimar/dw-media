@@ -41,9 +41,9 @@ db.media:
 # Application server
 app:
   build: ./wildfly-custom
-#  ports:
-#    - "28080:8080"
-#    - "19990:9990"
+  ports:
+    - "28080:8080"
+    - "19990:9990"
   volumes_from:
     - fs_as
   links:
