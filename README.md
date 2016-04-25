@@ -13,7 +13,8 @@ The three files are the following.
 
 
 # API
-source code is located in : https://github.com/DINA-Web/mediaserver-module
+source code is located in : https://github.com/DINA-Web/mediaserver-module <br>
+first API doc -> https://github.com/DINA-Web/mediaserver-module/blob/master/docs/new-api.md  <br>
 
 ## @POST
 posting a base64-encoded string ( 2x2 pixels ), mind the URI ( http://localhost:28080/MediaServerResteasy/media ) <br>
