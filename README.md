@@ -17,10 +17,10 @@ The three files are the following.
 ## @POST
 posting a base64-encoded string, mind the URI ( http://localhost:28080/MediaServerResteasy/media ) <br>
 
-*request* <br>
+### request 
 curl -v -H "Accept: application/json" -H "Content-type: application/json" -X POST -d  '{"owner":"dina","access":"public","licenseType":"CC BY","legend":"this is chess","fileName":"chess.png","fileDataBase64":"iVBORw0KGgoAAAANSUhEUgAAAAIAAAACAQMAAABIeJ9nAAAABlBMVEUAAAD///+l2Z/dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AQZCR0TdgIZugAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAMSURBVAjXY3BgaAAAAUQAwetZAwkAAAAASUVORK5CYII="}' http://localhost:28080/MediaServerResteasy/media  <br>
 
-*response, - random uuid* <br>
+### response ( the uuid is random)
 {"uuid":"f3959214-fcb2-451a-a0cb-dcd8457d2c83","owner":"dina","visibility":"public","filename":"chess.png","mimetype":"image/png","mediaURL":"127.0.0.1/MediaServerResteasy/media/f3959214-fcb2-451a-a0cb-dcd8457d2c83?format=image/png","taggar":null,"alt":null,"hash":"0782dd0a2fef7bf7e08bd68978e63e27","description":[{"uuid":null,"legend":"this is chess","lang":"sv_SE","comment":""}],"lico":[{"id":1,"abbrev":"CC BY","version":"3.0","issuer":"http://creativecommons.org/licenses/by/","uri":"Attribution","name":"Creative Commons"}],"isExported":false,"exif":"N/A"} <br>
 
 ## @GET
