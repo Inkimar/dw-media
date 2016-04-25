@@ -1,5 +1,4 @@
-# Filesystem
-
+# Filesystems
 fs_db.media:
   image: tianon/true
   volumes:
@@ -22,7 +21,7 @@ fs_as:
     - ./srv/data:/opt/data
     - ./srv/deployments:/opt/jboss/wildfly/standalone/deployments:z
     - ./srv/releases:/opt/jboss/wildfly/releases
-    - ./srv/log:/opt/jboss/wildfly/nf-logs
+    - ./srv/log:/opt/jboss/wildfly/standalone/log
 
 # Database
 db.media:
