@@ -13,6 +13,7 @@ The three files are the following.
 
 
 # API
+source code is located in : https://github.com/DINA-Web/mediaserver-module
 
 ## @POST
 posting a base64-encoded string ( 2x2 pixels ), mind the URI ( http://localhost:28080/MediaServerResteasy/media ) <br>
