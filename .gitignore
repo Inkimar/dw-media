@@ -6,6 +6,7 @@
 mysql_media-autoload/mediaserver_for_nf-20160203.sql
 srv/deployments/mediaserver-nf.ear.deployed
 srv/deployments/mediaserver-nf.ear
+srv/log/server.log
 
 srv/data/media_files/0/
 srv/data/media_files/1/
