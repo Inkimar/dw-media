@@ -22,7 +22,7 @@ curl -v -H "Accept: application/json" -H "Content-type: application/json" -X POS
 
 ### response ( the uuid is random)
 
-{"uuid":"f3959214-fcb2-451a-a0cb-dcd8457d2c83","owner":"dina","visibility":"public","filename":"chess.png","mimetype":"image/png","mediaURL":"127.0.0.1/MediaServerResteasy/media/f3959214-fcb2-451a-a0cb-dcd8457d2c83?format=image/png","taggar":null,"alt":null,"hash":"0782dd0a2fef7bf7e08bd68978e63e27","description":[{"uuid":null,"legend":"this is chess","lang":"sv_SE","comment":""}],"lico":[{"id":1,"abbrev":"CC BY","version":"3.0","issuer":"http://creativecommons.org/licenses/by/","uri":"Attribution","name":"Creative Commons"}],"isExported":false,"exif":"N/A"} <br>
+{**"uuid":"f3959214-fcb2-451a-a0cb-dcd8457d2c83"**,"owner":"dina","visibility":"public","filename":"chess.png","mimetype":"image/png","mediaURL":"127.0.0.1/MediaServerResteasy/media/f3959214-fcb2-451a-a0cb-dcd8457d2c83?format=image/png","taggar":null,"alt":null,"hash":"0782dd0a2fef7bf7e08bd68978e63e27","description":[{"uuid":null,"legend":"this is chess","lang":"sv_SE","comment":""}],"lico":[{"id":1,"abbrev":"CC BY","version":"3.0","issuer":"http://creativecommons.org/licenses/by/","uri":"Attribution","name":"Creative Commons"}],"isExported":false,"exif":"N/A"} <br>
 
 ## @GET
 
